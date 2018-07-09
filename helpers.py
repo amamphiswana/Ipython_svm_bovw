@@ -61,7 +61,7 @@ class BOVHelpers:
 					idx = kmeans_ret[old_count+j]
 				self.mega_histogram[i][idx] += 1
 			old_count += l
-		print "Vocabulary Histogram Generated"
+		print ("Vocabulary Histogram Generated")
 
 	def standardize(self, std=None):
 		"""
